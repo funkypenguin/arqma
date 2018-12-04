@@ -3,7 +3,7 @@
 # builder stage
 FROM ubuntu:16.04 as builder
 
-ARG BRANCH=v0.2
+ARG BRANCH=v0.2.1
 ENV BRANCH=${BRANCH}
 
 # Unneeded in build stage, but avoids hook errors
